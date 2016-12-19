@@ -5,19 +5,16 @@
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
-		
+		<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
 		
 		<script src="jscript.js"></script>
+	
 	<head>
 	<body onload="load()">
 		<div ID="display">
 			<div ID="left">
-				<div ID="textArea">
-					<div ID="words">yes</div>
-					<div ID="words">no</div>
-					<div ID="words">maybe</div>
-				</div>
-				<input ID="userinput">
+				<div ID="textArea"></div>
+				<input ID="userinput" onkeyup="user(this)">
 			</div>
 			<div ID="menu">
 				<button ID="start" onclick="start()">Begin Your Adventure</button>

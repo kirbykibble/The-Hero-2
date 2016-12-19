@@ -13,10 +13,12 @@ body {
 	transition: all ease 3s;
 }
 #left {
-	width: 60vw;
+	opacity: 0;
+	width: 50vw;
 }
 #menu {
-	width: 40vw;
+	width: 50vw;
+	width: 50vw;
 	display: flex;
 	flex-flow: column;
 }
@@ -28,6 +30,7 @@ button {
 	background-color: rgba(255,255,255,0.2);
 	border: none;
 	border-radius: 5px;
+	color: white;
 }
 
 #start {
@@ -50,14 +53,31 @@ button:hover {
 	height: 80vh;
 	width: 80%;
 	margin: 3vw;
-	border: solid white 1px;
+	margin-bottom: 0;
+/*	border: solid white 1px;*/
 	display: flex;
 	flex-flow: column;
 	flex-direction: column-reverse;
 }
 #words {
-	border: dotted white 3px;
+/*	border: dotted white 3px;*/
 	text-align: right;
 	padding: 10px;
-	
+	transition: all ease 0.1s;
+}
+#notwords {
+	color: rgba(255,255,255,0);
+	text-align: right;
+	padding: 10px;
+	transition: all ease 0.1s;
+}
+#userinput {
+	width: 80%;
+	margin-left: 3vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: white;
+	opacity: 0;
+	border: none;
+	transition: all ease 2s;
 }
