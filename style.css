@@ -1,0 +1,63 @@
+body {
+	font-family: Chau Philomene One;
+	background-image: url(images/FireBig.gif);
+	background-size: cover;
+}
+#display {
+	background-image: url("images/background2-edit.png");
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: row;
+	transition: all ease 3s;
+}
+#left {
+	width: 60vw;
+}
+#menu {
+	width: 40vw;
+	display: flex;
+	flex-flow: column;
+}
+button {
+	font-size: 36pt;
+	height: 10vh;
+	margin: 10px;
+	transition: all ease 0.3s;
+	background-color: rgba(255,255,255,0.2);
+	border: none;
+	border-radius: 5px;
+}
+
+#start {
+	margin-top: 35vh;
+}
+#info {
+	text-align: right;
+	font-size: 20pt;
+	margin: 10px;
+	color: rgba(255,255,255,0);
+	transition: all ease 0.5s;
+	margin-top: 10vh;
+}
+button:hover {
+	margin-right: 20px;
+	margin-left: -20px;
+}
+#textArea {
+	color: white;
+	height: 80vh;
+	width: 80%;
+	margin: 3vw;
+	border: solid white 1px;
+	display: flex;
+	flex-flow: column;
+	flex-direction: column-reverse;
+}
+#words {
+	border: dotted white 3px;
+	text-align: right;
+	padding: 10px;
+	
+}
